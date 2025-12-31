@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#4F46E5" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="EXS Digital Solutions - Professional Web Development, Mobile Apps, UI/UX Design. Transform your digital presence with our expert team." />
+    <meta name="keywords" content="web development, mobile apps, UI/UX design, digital agency, Indonesia, React, Node.js, programming" />
+    <meta name="author" content="PrasetyoBayu07" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://exs-kappa.vercel.app/" />
+    <meta property="og:title" content="EXS Digital Solutions | Professional Digital Agency" />
+    <meta property="og:description" content="Transform your digital presence with EXS. Web Development, Mobile Apps, UI/UX Design, and Digital Marketing solutions." />
+    <meta property="og:image" content="https://exs-kappa.vercel.app/og-image.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://exs-kappa.vercel.app/" />
+    <meta property="twitter:title" content="EXS Digital Solutions | Professional Digital Agency" />
+    <meta property="twitter:description" content="Transform your digital presence with EXS. Web Development, Mobile Apps, UI/UX Design, and Digital Marketing solutions." />
+    <meta property="twitter:image" content="https://exs-kappa.vercel.app/og-image.png" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://exs-kappa.vercel.app/" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Title -->
+    <title>EXS Digital Solutions | Professional Digital Agency</title>
+    
+    <!-- Google Analytics (optional) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
+</head>
+<body>
+    <noscript>
+        <div style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            z-index: 9999;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        ">
+            <div>
+                <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">EXS Digital Solutions</h1>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+                    You need to enable JavaScript to run this application.
+                </p>
+                <p style="font-size: 0.9rem; opacity: 0.8;">
+                    Please enable JavaScript in your browser settings and refresh the page.
+                </p>
+            </div>
+        </div>
+    </noscript>
+    
+    <div id="root"></div>
+    
+    <!-- Fallback for older browsers -->
+    <script>
+        if (!window.Promise || !window.fetch || !window.Symbol) {
+            document.getElementById('root').innerHTML = 
+                '<div style="padding: 40px; text-align: center; font-family: sans-serif;">' +
+                '<h2>Browser Update Required</h2>' +
+                '<p>Your browser is outdated. Please update to the latest version to view this website.</p>' +
+                '<p>Recommended browsers: Chrome, Firefox, Safari, Edge</p>' +
+                '</div>';
+        }
+    </script>
+</body>
+</html>
