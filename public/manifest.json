@@ -1,0 +1,72 @@
+{
+  "short_name": "EXS Digital",
+  "name": "EXS Digital Solutions - Professional Digital Agency",
+  "description": "Transform your digital presence with EXS. Professional web development, mobile apps, UI/UX design, and digital marketing solutions.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4F46E5",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "id",
+  "categories": ["business", "technology", "web development", "design"],
+  "screenshots": [
+    {
+      "src": "screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "EXS Desktop Website"
+    },
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "EXS Mobile Website"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Our Services",
+      "short_name": "Services",
+      "description": "View our digital services",
+      "url": "/#services",
+      "icons": [
+        {
+          "src": "icon-services.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with our team",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "icon-contact.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
